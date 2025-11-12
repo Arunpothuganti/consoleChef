@@ -1,0 +1,106 @@
+Project Title:
+----------------------------
+“Console Chef – "Your personal chef, just a command away!"”
+
+================================================================================
+(
+"Cook what you crave — at your doorstep!"
+
+"Bringing chefs to your console and kitchen!"
+
+"Pick a dish, we send a chef!"
+
+"One recipe away from happiness!"
+
+"Your recipe, our responsibility!"
+
+"Select. Book. Taste. All through code."
+
+"Cooking made easy — from console to kitchen!"
+
+"Chef on demand, recipe in hand!"
+
+"Home-style dishes, professional touch."
+
+"Command the kitchen from your console!"
+)
+==================================================================================
+
+✅ Project objective:
+------------------------------
+The objective of this project is to build a mini console-based application using Object-Oriented Programming (OOPs) in Java, where users can view available dishes, select a recipe, and book a chef accordingly. The system assigns a chef who travels to the user's location, prepares the selected dish, and returns. This project demonstrates the practical use of OOPs concepts like classes, objects, inheritance, encapsulation, abstraction, and polymorphism to simulate a real-world chef booking and cooking service in a structured and modular way.
+
+=============================================================================
+
+Algorithm:
+-------------
+Step 1: Define Classes
+Create the following classes:
+
+User – stores user info
+
+Dish – stores dish name, type, estimated cooking time
+
+Chef – stores chef name, specialization, availability
+
+Booking – maps a User to a Chef for a selected Dish
+
+Step 2: Initialize Data
+Pre-load a list of:
+
+Available Dishes
+
+Available Chefs
+
+Step 3: Display Menu to User
+Welcome user.
+
+Show options:
+
+View available dishes
+
+Book a chef
+
+View bookings
+
+Exit
+
+Step 4: View Dishes
+Display all dishes with IDs and details.
+
+Step 5: Book a Chef
+Ask user to select a dish by ID.
+
+Find a chef who specializes in that dish and is available.
+
+If available:
+
+Create a Booking object.
+
+Mark the chef as unavailable.
+
+Show confirmation to the user.
+
+If no chef is available:
+
+Show message: “No chef available currently for this dish.”
+
+Step 6: View Bookings
+Display all current bookings made by the user.
+
+Step 7: Exit
+Exit the application and thank the user.
+
+
+
+
+=======================================================================================
+
+=> OOPs Concepts Used:
+-----------------------------------
+Concept	Usage in Project
+Class & Object	Recipe, Chef, Ingredient, and MainApp classes used
+Encapsulation	Private fields with getters/setters to protect data
+Inheritance	Dessert, MainCourse, etc., extend Recipe class
+Polymorphism	Method overriding for custom display() in subclasses
+Abstraction	Abstract class Recipe with abstract methods
